@@ -1,0 +1,223 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+div.landing nav{
+    /* background-color: rgb(39, 38, 38); */
+    width: 100%;
+    position: fixed;
+    opacity: 0.9;
+    height: 6%;
+    padding-bottom: 0.5em;
+    margin-left: 35%; 
+}
+div.landing ul{
+    padding: 0%;
+    margin:0%;
+}
+div.landing nav li{
+    display: inline;
+    padding: 0.2em;
+    float: left;
+}
+div.landing nav li:hover{
+    background-color: rgb(67, 66, 66);
+    height: 100%;
+}
+div.landing nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+div.block1{
+    text-align:center;
+    width: 100%;
+    height: 100%;
+    display:block;
+    color: white;
+    font-size: 25px;
+    background-image: url(martin-martz-q9A0A3ij4yM-unsplash.jpg);
+    background-position: center;
+}
+div.blockin{ 
+    padding: 200px 150px;
+}
+/* styling for music section showcase */
+section.music{
+    text-align:center;
+    width: 100%;
+    height: 120%;
+    display:block;
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+    padding: 50px 0px;
+    background-color: rgb(252, 249, 249);
+}
+section.music div{
+    padding: 0px 200px;
+}
+section.music h1{
+    font-size: xx-large;
+}
+section.music img{
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+}
+section.music a{
+    text-decoration: none;
+    color: rgb(248, 246, 246);
+    padding: 20px 40px;
+    background-color: rgb(214, 75, 78);
+    border-radius: 5px;
+}
+section.music a:hover{
+    background-color: rgb(245, 133, 133);
+}
+section.music p{
+    padding: 20px;
+}
+/* styling for video section showcase */
+section.video{
+    text-align:center;
+    width: 100%;
+    height: 120%;
+    display:block;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    padding: 50px 0px;
+    background-color: rgb(187, 186, 186);
+}
+section.video img{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 40px;
+}
+section.video p{
+    padding: 10px 50px;
+}
+section.video a{
+    text-decoration: none;
+    color: rgb(248, 246, 246);
+    padding: 20px 40px;
+    background-color: rgb(49, 191, 216);
+    border-radius: 10px;
+}
+section.video a:hover{
+    background-color: rgb(116, 228, 232);
+}
+
+/* styling for entertainment section showcase */
+section.entertain{
+    text-align:center;
+    width: 100%;
+    height: 90%;
+    display:block;
+    color: white;
+    font-size: larger;
+    padding: 50px 0px;
+    background-color: rgb(128, 117, 117);
+    background-image: url(https://tinyurl.com/conceirto);
+    background-position: center;
+    background-size: cover;
+}
+section.entertain div{
+    padding: 150px 80px ;
+    font-size: larger;
+}
+/* styling for giftcard section showcase */
+section.giftcard{
+    text-align:left;
+    width: 100%;
+    height: 80%;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    display: block;
+    padding: 50px 0px 10px 0px;
+    background-color: rgb(255, 254, 254);
+}
+section.giftcard .gfs{
+    display:grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items:center;
+    gap: 1em;
+}
+/*section.giftcard .item1{
+  width:
+}*/
+section.giftcard img{
+    width: 22em;
+}
+section.giftcard p{
+    text-align: justify;
+    padding: 0px 20px 0px 0px;
+}
+section.giftcard span{
+    font-size: small;
+}
+section.giftcard a{
+    text-decoration: none;
+    color: brown;
+}
+section.giftcard a:hover{
+    color:rgb(255, 116, 146)
+}
+/* styling for footer section showcase */
+footer{
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: larger;
+    background-color: rgb(58, 56, 56);
+    position:relative;
+    bottom:0;
+}
+footer .footbot{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding:1em;
+}
+footer ul{
+    list-style: none;
+    text-align: left;
+    font-size: medium;
+}
+footer .footend{
+    text-align:center;
+    background-color: rgb(16, 15, 15);
+    width:100%;
+    padding:0.2em 0;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+ 
+.left-corner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px; /* Optional: adds space around the image */
+    width: 8%;
+}
+  
